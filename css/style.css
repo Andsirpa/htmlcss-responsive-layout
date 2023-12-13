@@ -99,3 +99,17 @@ a {
 }
 
 /* SECTION DEMO APP */
+
+.card {
+    background-color: var(--card-bg-color);
+    padding: 1rem;
+}
+
+.col-2-3 .card {
+    display: flex;
+}
+
+.col-2-3 .card .card-left,
+.col-2-3 .card .card-right {
+    width: 50%;
+}
