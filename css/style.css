@@ -1,3 +1,13 @@
+:root {
+    --primary-color: #9792e4;
+    --secondary-color: #0084fd;
+
+    --card-bg-color: #b5ddff;
+    --card-color: #5f7487;
+
+
+}
+
 /* RESET */
 
 * {
@@ -31,8 +41,34 @@ a {
 
 .container {
     max-width: 1080px;
-    margin: 0 auto;
-    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[class*="col"] {
+    padding: 15px;
+
+}
+
+.col-1-3 {
+    width: calc(100% / 3);
+}
+
+.col-2-3 {
+    width: calc(100% / 3*2);
+}
+
+.col-1-2 {
+    width: 50%;
 }
 
 /* DEBUG */
@@ -42,3 +78,24 @@ a {
     background-color: lightslategray;
     padding: 2rem;
 }
+
+/* HEADER */
+#header {
+    background-color: var(--secondary-color);
+    columns: white;
+}
+
+#header>.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header>.container>.logo,
+#header>.container>nav {
+    /* debug */
+    background-color: var(--card-bg-color);
+    padding: 25px;
+    color: var(--card-color);
+}
+
+/* SECTION DEMO APP */
