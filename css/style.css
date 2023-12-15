@@ -125,6 +125,7 @@ section {
 
 #planning,
 #benefits,
+#get-started,
 #planning .card {
     background-color: var(--primary-color);
 }
@@ -183,6 +184,10 @@ section {
 
 /* SECTION ABOUT US */
 
+#about-us .card {
+    background-color: white;
+}
+
 #about-us .card-left {
     width: 70%;
 }
@@ -190,4 +195,12 @@ section {
 #about-us .card-right {
     width: 30%;
     color: var(--primary-color);
+}
+
+/* SECTION GET STARTED */
+
+#get-started .container {
+    width: 50%;
+    text-align: center;
+    color: white;
 }
