@@ -71,6 +71,7 @@ a {
     width: 50%;
 }
 
+
 /* DEBUG */
 
 .debug {
@@ -103,6 +104,7 @@ a {
 .card {
     background-color: var(--card-bg-color);
     padding: 1rem;
+    border-radius: 20px;
 }
 
 .col-2-3 .card {
@@ -112,4 +114,22 @@ a {
 .col-2-3 .card .card-left,
 .col-2-3 .card .card-right {
     width: 50%;
+}
+
+/* SECTION PLANNING */
+
+#planning,
+#planning .card {
+    background-color: var(--primary-color);
+}
+
+#planning .col-1-2 {
+    display: flex;
+}
+
+#planning .card-white {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
