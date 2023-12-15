@@ -124,6 +124,7 @@ section {
 /* SECTION PLANNING */
 
 #planning,
+#benefits,
 #planning .card {
     background-color: var(--primary-color);
 }
@@ -147,10 +148,12 @@ section {
 
 #testimonials .card {
     background-color: var(--primary-color);
+    color: white;
 }
 
 #testimonials .first-card {
     background-color: white;
+    color: var(--card-color);
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -162,4 +165,16 @@ section {
 
 #testimonials .card-right {
     width: 70%;
+}
+
+
+/* SECTION BENEFITS */
+
+.secondary-title {
+    text-align: center;
+    color: white;
+}
+
+#benefits .card {
+    background-color: white;
 }
