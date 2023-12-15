@@ -204,3 +204,15 @@ section {
     text-align: center;
     color: white;
 }
+
+/* FOOTER */
+
+#footer {
+    background-color: #333333;
+    padding: 2rem;
+}
+
+#footer .container {
+    width: 50%;
+    text-align: center;
+}
