@@ -39,10 +39,14 @@ a {
 
 /* UTILS */
 
+section {
+    padding: 2rem 0;
+}
+
 .container {
     max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -105,6 +109,7 @@ a {
     background-color: var(--card-bg-color);
     padding: 1rem;
     border-radius: 20px;
+    display: flex;
 }
 
 .col-2-3 .card {
@@ -132,4 +137,29 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+/* section TESTIMONIALS */
+
+#testimonials .col {
+    width: 100%;
+}
+
+#testimonials .card {
+    background-color: var(--primary-color);
+}
+
+#testimonials .first-card {
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#testimonials .card-left {
+    width: 30%;
+}
+
+#testimonials .card-right {
+    width: 70%;
 }
